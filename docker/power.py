@@ -6,7 +6,7 @@ y = x * x
 
 
 
-f = open("power.txt","w")
+f = open(sys.argv[2].strip(),"w")
 f.write(str(y) + "\n")
 
 f.close()
